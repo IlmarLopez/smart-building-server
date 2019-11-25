@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="SmartBuildingServer">
+        
+    <wb-module deploy-name="smart-building-server">
+                
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="SmartBuildingServer"/>
-        <property name="java-output-path" value="/SmartBuildingServer/build/classes"/>
+                
+        <property name="java-output-path" value="/smart-building-server/build/classes"/>
+        <property name="context-root" value="smart-building-server"/>
+            
     </wb-module>
+    
 </project-modules>
