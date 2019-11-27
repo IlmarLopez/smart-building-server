@@ -55,6 +55,7 @@ public class AlarmListServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
         response.setContentType("application/json");
         response.setCharacterEncoding("UTF-8");
+        response.addHeader("Access-Control-Allow-Origin", "*");
         out.print(employeeJsonString);
         out.flush();
 	}

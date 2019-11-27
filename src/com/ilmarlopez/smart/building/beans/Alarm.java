@@ -2,6 +2,7 @@ package com.ilmarlopez.smart.building.beans;
 
 public class Alarm {
     
+	private int id;
     private String createdAt;
     private int teachingId;
     
@@ -12,6 +13,20 @@ public class Alarm {
         this.teachingId = teachingId;
     }
 
+    /**
+     * @return the id
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+    
     /**
      * @return the createdAt
      */
